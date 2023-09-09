@@ -6,6 +6,6 @@ window.document.onkeydown = (e) => {
         }
 	}  
 }
-test() {
+function test() {
   alert('ok');
 }
