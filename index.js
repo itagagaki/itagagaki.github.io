@@ -1,4 +1,3 @@
-alert('ok');
 window.document.onkeydown = (e) => {
   	if (e.keyCode === 13) {
         let element = document.getElementById("answer");
@@ -6,4 +5,7 @@ window.document.onkeydown = (e) => {
             alert("success");
         }
 	}  
+}
+test() {
+  alert('ok');
 }
