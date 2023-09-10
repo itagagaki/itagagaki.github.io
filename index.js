@@ -1,14 +1,14 @@
-document.onkeydown = function (e) {
+window.document.onkeydown = (e) => {
   console.log('keydown');
   if (e.keyCode === 13) {
     let element = document.getElementById("answer");
-    console.log('element');
+    console.log('element:');
     console.log(element);
-    if (element.value === "kst"){
-      alert("success");
+    if (element) {
+      console.log('element.value:' + element.value);
+      if (element.value === "kst"){
+        alert("success");
+      }
     }
   }  
-}
-function test() {
-  alert('ok');
 }
